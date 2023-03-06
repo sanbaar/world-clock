@@ -4,14 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="src/style.css" />
     <title>World Clock</title>
   </head>
   <body>
-    <h1>World Clock</h1>
+    <div class="container">
+      <h1>World Clock</h1>
+      <select name="" id="">
+        <option value="">Select a city</option>
+        <option value="">Barcelona</option>
+        <option value="">Lima</option>
+        <option value="">San Francisco</option>
+      </select>
+
+      <div class="row">
+        <div class="col-2">
+          <h2>Los Angeles</h2>
+          <p>Tuesday March 8th 2023</p>
+        </div>
+        <div class="col-2">01:25:34 AM</div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <h2>Melbourne</h2>
+          <p>Tuesday March 8th 2023</p>
+        </div>
+        <div class="col-2">01:25:34 AM</div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <h2>Tokyo</h2>
+          <p>Tuesday March 8th 2023</p>
+        </div>
+        <div class="col-2">01:25:34 AM</div>
+      </div>
+    </div>
+
     <footer>
       Coded by Sandra Bagés-Arnal. It is open source on
-      <a href="https://github.com/sanbaar/world-clock">Github</a>
+      <a href="https://github.com/sanbaar/world-clock" target="_blank"
+        >Github</a
+      >
     </footer>
     <script src="src/script.js"></script>
   </body>
