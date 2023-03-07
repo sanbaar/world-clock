@@ -1,0 +1,44 @@
+body {
+  background: rgb(194, 215, 255);
+  font-family: "Roboto", sans-serif;
+}
+
+footer {
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 700;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+}
+select {
+  width: 335px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.city-bottom {
+  text-align: center;
+}
+.city-top {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  background: white;
+  padding: 50px 20px 50px 50px;
+  border-radius: 10px;
+}
+
+.time {
+  text-align: center;
+}
