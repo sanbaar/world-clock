@@ -9,7 +9,7 @@ function updateTime() {
     .format("dddd, MMMM Do");
   torontoDateElement.innerHTML = torontoCurrentDate;
 
-  let torontoCurrentTime = moment().tz("America/Toronto").format("hh:mm A");
+  let torontoCurrentTime = moment().tz("America/Toronto").format("hh:mm:ss A");
   torontoTimeElement.innerHTML = torontoCurrentTime;
 
   //Tokyo
@@ -20,7 +20,7 @@ function updateTime() {
   let tokyoCurrentDate = moment().tz("Asia/Tokyo").format("dddd, MMMM Do");
   tokyoDateElement.innerHTML = tokyoCurrentDate;
 
-  let tokyoCurrentTime = moment().tz("Asia/Tokyo").format("hh:mm A");
+  let tokyoCurrentTime = moment().tz("Asia/Tokyo").format("hh:mm:ss A");
   tokyoTimeElement.innerHTML = tokyoCurrentTime;
 
   //Melbourne
@@ -35,7 +35,7 @@ function updateTime() {
 
   let melbourneCurrentTime = moment()
     .tz("Australia/Melbourne")
-    .format("hh:mm A");
+    .format("hh:mm:ss A");
   melbourneTimeElement.innerHTML = melbourneCurrentTime;
 
   //Calcutta
@@ -46,7 +46,7 @@ function updateTime() {
   let calcuttaCurrentDate = moment().tz("Asia/Kolkata").format("dddd, MMMM Do");
   calcuttaDateElement.innerHTML = calcuttaCurrentDate;
 
-  let calcuttaCurrentTime = moment().tz("Asia/Kolkata").format("hh:mm A");
+  let calcuttaCurrentTime = moment().tz("Asia/Kolkata").format("hh:mm:ss A");
   calcuttaTimeElement.innerHTML = calcuttaCurrentTime;
 }
 
