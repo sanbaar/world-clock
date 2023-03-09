@@ -52,3 +52,13 @@ function updateTime() {
 
 updateTime();
 setInterval(updateTime, 1000);
+
+function updateCity(event) {
+  let cityTimeZone = event.target.value;
+  let cityDate = moment().tz(cityTimeZone).format("MMMM Do YYYY");
+  let timeCitiesElement = document.querySelector("#time-cities");
+  timeCitiesElement.innerHTML = "Hello";
+}
+
+let citiesSelectElement = document.querySelector("#select-city");
+citiesSelectElement.addEventListener("change", updateCity);
