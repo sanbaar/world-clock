@@ -1,10 +1,20 @@
 body {
-  background: rgb(194, 215, 255);
+  background: linear-gradient(
+    113.5deg,
+    rgb(234, 234, 234) 22.3%,
+    rgb(201, 234, 211) 56.6%,
+    rgb(255, 180, 189) 90.9%
+  );
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: "Roboto", sans-serif;
 }
 
 footer {
   text-align: center;
+  color: grey;
 }
 
 h1 {
@@ -15,6 +25,7 @@ h1 {
 
 h2 {
   font-weight: bold;
+  margin: 0;
 }
 
 select {
@@ -35,13 +46,39 @@ select {
 .container {
   max-width: 900px;
   margin: 50px auto;
-  background: white;
+  background: rgba(255, 255, 255, 0.8);
   padding: 50px 20px 50px 50px;
   border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.date {
+  color: gray;
+}
+
+.date-selected-city {
+  font-size: 20px;
+  color: grey;
+}
+
+.selected-city {
+  text-align: center;
+}
+.selected-city h2 {
+  font-size: 50px;
 }
 
 .time {
   text-align: center;
   font-size: 24px;
   font-weight: 700;
+  margin-top: 15px;
+}
+
+.time-selected-city {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 20px;
 }
