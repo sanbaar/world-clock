@@ -21,6 +21,7 @@ h1 {
   font-size: 80px;
   font-weight: 700;
   font-family: "Montserrat Alternates", sans-serif;
+  text-shadow: 3px 5px 2px #646464;
 }
 
 h2 {
@@ -37,10 +38,12 @@ select {
 
 .city-bottom {
   text-align: center;
+  text-shadow: 3px 3px 4px rgb(197, 197, 197);
 }
 .city-top {
   text-align: center;
   padding-bottom: 50px;
+  text-shadow: 3px 3px 4px rgb(197, 197, 197);
 }
 
 .container {
@@ -65,6 +68,7 @@ select {
 
 .selected-city {
   text-align: center;
+  text-shadow: 3px 3px 4px rgb(197, 197, 197);
 }
 .selected-city h2 {
   font-size: 50px;
