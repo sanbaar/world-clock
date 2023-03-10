@@ -36,6 +36,17 @@ select {
   font-size: 20px;
 }
 
+#button-link-back {
+  padding: 7px 10px;
+  border-radius: 4px;
+  background-color: #d0e9d7;
+  display: block;
+  margin: 30px 154.5px 0px 154.5px;
+  text-decoration: none;
+  color: gray;
+  text-decoration-style: none;
+}
+
 .city-bottom {
   text-align: center;
   text-shadow: 3px 3px 4px rgb(197, 197, 197);
