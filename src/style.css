@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 body {
   background: linear-gradient(
     113.5deg,
@@ -42,9 +46,7 @@ select {
   background-color: #d0e9d7;
   display: block;
   margin: 30px 154.5px 0px 154.5px;
-  text-decoration: none;
   color: gray;
-  text-decoration-style: none;
 }
 
 .city-bottom {
